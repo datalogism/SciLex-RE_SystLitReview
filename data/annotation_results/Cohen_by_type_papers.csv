@@ -1,0 +1,17 @@
+,surveys_subset,models_subset,datasets_subset
+http://arxiv.org/abs/2302.05019v1,"{'HA&CR': np.float64(0.0), 'HA&CF': np.float64(0.0), 'CR&CF': np.float64(0.21739130434782616)}",,
+https://www.semantic-web-journal.net/system/files/swj1909.pdf,"{'CR&FM': np.float64(0.52), 'CR&FG': np.float64(0.6399999999999999), 'FM&FG': np.float64(0.6538461538461537)}",,
+https://arxiv.org/abs/2010.01923v2,,"{'CF&CR': np.float64(0.0), 'CF&HA': np.float64(0.0), 'CR&HA': np.float64(0.25106382978723396)}",
+https://arxiv.org/abs/2106.03618v2,,"{'CF&CR': np.float64(0.5182481751824817), 'CF&HA': np.float64(0.3125), 'CR&HA': np.float64(0.2857142857142857)}",
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8880633&tag=1,,"{'CF&FM': np.float64(0.6), 'CF&FG': np.float64(0.78), 'FM&FG': np.float64(0.6604938271604939)}",
+https://www.aclweb.org/anthology/2020.emnlp-main.133,,"{'CF&HA': np.float64(0.09589041095890416), 'CF&FG': np.float64(0.5540540540540541), 'HA&FG': np.float64(0.3003533568904593)}",
+http://arxiv.org/abs/2303.04132,,"{'CF&CR': np.float64(0.48538011695906425), 'CF&FG': np.float64(0.6874999999999999), 'CR&FG': np.float64(0.5191256830601092)}",
+https://arxiv.org/abs/2105.13456v2,,"{'CF&HA': np.float64(0.28189910979228483), 'CF&FM': np.float64(0.6774193548387097), 'HA&FM': np.float64(0.43909348441926355)}",
+https://aclanthology.org/P19-1525,,"{'CR&HA': np.float64(0.5523255813953488), 'CR&FM': np.float64(0.7380952380952381), 'HA&FM': np.float64(0.6666666666666667)}",
+https://aclanthology.org/2022.naacl-main.342,,"{'CR&FM': np.float64(0.4601226993865032), 'CR&FG': np.float64(0.5443786982248521), 'FM&FG': np.float64(0.5276073619631902)}",
+https://arxiv.org/abs/2302.08675v1,,"{'CR&FM': np.float64(0.5510204081632653), 'CR&FG': np.float64(0.42105263157894746), 'FM&FG': np.float64(0.5822784810126581)}",
+https://aclanthology.org/2022.acl-long.183,,"{'HA&FM': np.float64(0.44067796610169474), 'HA&FG': np.float64(0.34911242603550297), 'FM&FG': np.float64(0.8041543026706232)}",
+https://aclanthology.org/D19-1649,,,"{'FM&CR': np.float64(0.0), 'FM&CF': np.float64(0.0), 'CR&CF': np.float64(0.52)}"
+https://aclanthology.org/2021.emnlp-main.366,,,"{'FM&CR': np.float64(0.5897435897435898), 'FM&FG': np.float64(0.7714285714285715), 'CR&FG': np.float64(0.5789473684210527)}"
+https://aclanthology.org/L18-1544,,,"{'FM&CF': np.float64(0.9215686274509804), 'FM&HA': np.float64(0.8481012658227849), 'CF&HA': np.float64(0.7777777777777778)}"
+https://aclanthology.org/2023.acl-long.237/,,,"{'CR&FG': np.float64(0.6200527704485488), 'CR&HA': np.float64(0.09774436090225569), 'FG&HA': np.float64(0.1048951048951049)}"
