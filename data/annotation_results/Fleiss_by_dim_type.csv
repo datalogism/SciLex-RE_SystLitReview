@@ -1,0 +1,61 @@
+,doc_type,dim,aggr,detail
+0,surveys_subset,SOURCE,-0.09090909090908979,Poor agreement
+1,surveys_subset,DOMAIN,0.3333333333333333,Fair agreement
+2,surveys_subset,SURVEY_METHODO_BIN,1.0,Almost perfect agreement
+3,surveys_subset,GRANULARITY,0.24999999999999992,Fair agreement
+4,surveys_subset,TASK,0.3999999999999999,Fair agreement
+5,surveys_subset,LANG,-0.2,Poor agreement
+6,surveys_subset,PTM,0.35135135135135137,Fair agreement
+7,surveys_subset,NBDATASET,0.5714285714285715,Moderate agreement
+8,surveys_subset,NBMODEL,0.7073170731707316,Substantial agreement
+9,surveys_subset,DATASET,0.35714285714285715,Fair agreement
+10,surveys_subset,BENCHMARKTYPE,0.2682926829268291,Fair agreement
+11,surveys_subset,ARCHI,0.11475409836065573,Slight agreement
+12,models_subset,LINEARIZEDGRAPH_BIN,0.37238493723849364,Fair agreement
+13,models_subset,TASK,0.8660714285714284,Almost perfect agreement
+14,models_subset,LANG,0.6808510638297871,Substantial agreement
+15,models_subset,NBTYPEREL,0.3848580441640378,Fair agreement
+16,models_subset,NBDATASET,-0.12852664576802508,Poor agreement
+17,models_subset,LEARNINGMETHOD,0.4642857142857142,Moderate agreement
+18,models_subset,COSTEVAL_BIN,0.21602787456445977,Fair agreement
+19,models_subset,INPUT,0.1750000000000003,Slight agreement
+20,models_subset,ARCHI,0.39698492462311546,Fair agreement
+21,models_subset,GRANULARITY,0.49248120300751863,Moderate agreement
+22,models_subset,DECODINGMETHOD_BIN,0.13978494623655904,Slight agreement
+23,models_subset,SELECTIONMETHOD,-0.1180124223602489,Poor agreement
+24,models_subset,NBENTITY,-0.034482758620689835,Poor agreement
+25,models_subset,PTM,0.5945945945945945,Moderate agreement
+26,models_subset,SOURCE,0.2799999999999999,Fair agreement
+27,models_subset,SYNTHGENERATION_BIN,0.39597315436241576,Fair agreement
+28,models_subset,OBJECTPROPERTIES_BIN,0.16376306620209052,Slight agreement
+29,models_subset,LOSSUPDATE_BIN,0.3181818181818182,Fair agreement
+30,models_subset,USENEGATIVEEXAMPLE_BIN,0.4088669950738915,Moderate agreement
+31,models_subset,NBMODEL,-0.03448275862068811,Poor agreement
+32,models_subset,DATASET,0.3262411347517731,Fair agreement
+33,models_subset,DATATYPEPROP,-0.16766467065868285,Poor agreement
+34,datasets_subset,LINEARIZEDGRAPH_BIN,0.3999999999999999,Fair agreement
+35,datasets_subset,TASK,0.2258064516129032,Fair agreement
+36,datasets_subset,LANG,0.5862068965517242,Moderate agreement
+37,datasets_subset,NBTYPEREL,1.0,Almost perfect agreement
+38,datasets_subset,NBDATASET,0.3999999999999999,Fair agreement
+39,datasets_subset,LEARNINGMETHOD,0.14285714285714274,Slight agreement
+40,datasets_subset,COSTEVAL_BIN,0.3999999999999999,Fair agreement
+41,datasets_subset,INPUT,1.0,Almost perfect agreement
+42,datasets_subset,NBTRIPLES,0.3207547169811321,Fair agreement
+43,datasets_subset,ARCHI,-0.09090909090908979,Poor agreement
+44,datasets_subset,GRANULARITY,0.7073170731707317,Substantial agreement
+45,datasets_subset,NBSENT,-0.10204081632653066,Poor agreement
+46,datasets_subset,DECODINGMETHOD_BIN,0.3999999999999999,Fair agreement
+47,datasets_subset,DOMAIN,0.06896551724137931,Slight agreement
+48,datasets_subset,SELECTIONMETHOD,-0.09090909090908979,Poor agreement
+49,datasets_subset,NBENTITY,-0.14285714285714274,Poor agreement
+50,datasets_subset,PTM,1.0,Almost perfect agreement
+51,datasets_subset,SOURCE,0.76,Substantial agreement
+52,datasets_subset,SYNTHGENERATION_BIN,-0.24137931034482768,Poor agreement
+53,datasets_subset,OBJECTPROPERTIES_BIN,0.11111111111111101,Slight agreement
+54,datasets_subset,LOSSUPDATE_BIN,0.3999999999999999,Fair agreement
+55,datasets_subset,USENEGATIVEEXAMPLE_BIN,0.3999999999999999,Fair agreement
+56,datasets_subset,NBTYPEENTITY,-0.20000000000000057,Poor agreement
+57,datasets_subset,DATASET,0.14285714285714274,Slight agreement
+58,datasets_subset,NBDOC,0.3846153846153845,Fair agreement
+59,datasets_subset,DATATYPEPROP,0.4893617021276595,Moderate agreement
