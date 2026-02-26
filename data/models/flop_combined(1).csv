@@ -1,0 +1,12 @@
+Year,Model,Type,Model Size,FT GPU-hrs (min),FT GPU-hrs (max),PT GPU-hrs (min),PT GPU-hrs (max),Total GPU-hrs (min),Total GPU-hrs (max),PT tokens (min),PT tokens (max),PT FLOPs (min),PT FLOPs (max),FT FLOPs (min),FT FLOPs (max),PT notes
+2019,MTB,encoder-only,340M,48,?,96,?,50,150,5B,50B,1e19,1e20,2e14,4e15,Token count not reported; estimated from TPU days
+2020,CorefBERT,encoder-only,110M–355M,?,?,288,2112,300,2120,5B,13.1B,1e19,3e19,1e14,3e15,100K steps x batch 256 x seq 512; size depends on BERT-Base vs RoBERTa-Large variant
+2020,LUKE,encoder-only,483M,0.16,3.3,720,?,720,725,100B,209B,3e20,6e20,6e14,2e16,355M (RoBERTa-Large) + 128M entity embeddings (500K x 256d); 200K steps x batch 2048
+2021,SIRE,encoder-only,110M–355M,?,?,18,24,20,30,N/A,N/A,N/A,N/A,2e13,4e14,No pretraining; fine-tunes BERT-Base (110M) or RoBERTa-Large (355M) directly
+2021,REBEL,encoder-decoder,406M,0.27,5.6,27,200,0.27,210,44B,330B,1e20,8e20,3e14,5e15,BART-Large; 220M distant-supervision examples; ~6 epochs estimated
+2021,REDSandT,encoder-only,110M,0.15,5,?,?,0.15,5,N/A,N/A,N/A,N/A,4e13,4e14,BERT-Base; no pretraining; fine-tunes on NYT-10
+2021,BERT-GT,encoder-only,~120M,?,?,5,?,5,10,N/A,N/A,N/A,N/A,9e12,1e14,BERT-Base (110M) + ~10M Graph Transformer layers; no separate pretraining phase
+2022,GenIE,encoder-decoder,406M,2.5,60,12,492,14.4,492,22B,132B,5e19,3e20,2e15,3e16,BART-Large; continued pretraining on REBEL dataset; epoch count unclear
+2022,ClarET,encoder-decoder,406M,?,?,90,?,92,100,200M,400M,5e17,1e18,2e14,2e15,BART-Large; explicitly stated: 200M tokens / 90 A100 GPU-hrs
+2023,SynthIE,encoder-decoder,220M / 770M,?,?,160,240,162,300,N/A,N/A,N/A,N/A,2e18,1e20,Flan-T5-Base (220M) or Flan-T5-XL (770M); no new pretraining; 1.8M synthetic examples
+2023,DREEAM,encoder-only,110M–355M,0.5,?,4,7,4.5,7.5,N/A,N/A,N/A,N/A,1e14,8e14,BERT-Base (110M) or RoBERTa-Large (355M); no pretraining; self-training on DocRED
